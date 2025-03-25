@@ -1,3 +1,91 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 20%);
+  --medium-gray: hsl(0, 0%, 12%);
+  --dark-gray: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--dark-gray);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--medium-gray);
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--light-gray);
+  margin: 10px 0;
+}
+
+.user-details h1 {
+  font-size: 1.4rem;
+  color: var(--white);
+  margin-top: 10px;
+}
+
+.user-details h2 {
+  font-size: 0.8rem;
+  color: var(--green);
+  margin: 10px;
+}
+
+.user-details p {
+  font-size: 0.8rem;
+  color: var(--white);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  width: 100%;
+}
+
+.link-item {
+  margin: 5px 0;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--light-gray);
+  color: var(--white);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
