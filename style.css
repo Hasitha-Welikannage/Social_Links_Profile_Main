@@ -86,6 +86,12 @@ main {
   cursor: pointer;
 }
 
+.link-item:hover {
+  background-color: var(--green);
+  color: var(--dark-gray);
+  transition: background-color 0.3s ease;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
